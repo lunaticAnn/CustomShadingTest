@@ -1,8 +1,7 @@
 ﻿Shader "Custom/GeoTest" {
 	Properties {
 		_Explode("Explode Power", Range(0.,4.0)) = 3
-		_MainTex ("Albedo (RGB)", 2D) = "white" {}
-		
+		_MainTex ("Albedo (RGB)", 2D) = "white" {}	
 	}
 		SubShader{
 			Pass{
